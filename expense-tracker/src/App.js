@@ -1,7 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+//import logo from "./logo.svg";
+//import "./App.css";
+import ExpenseItem from "./components/ExpenseItem";
 function App() {
+  return (
+    <div>
+      <h1>Let's get started!</h1>
+      <ExpenseItem></ExpenseItem>
+    </div>
+  );
+
+  /*
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +28,7 @@ function App() {
       </header>
     </div>
   );
+  */
 }
 
 export default App;
